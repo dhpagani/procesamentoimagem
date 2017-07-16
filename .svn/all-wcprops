@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 37
+/svn/adair-tools~workTwoPid/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/adair-tools~workTwoPid/!svn/ver/9/pi
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/adair-tools~workTwoPid/!svn/ver/2/pi/manifest.mf
+END
+caminho.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/adair-tools~workTwoPid/!svn/ver/10/pi/caminho.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/adair-tools~workTwoPid/!svn/ver/2/pi/build.xml
+END

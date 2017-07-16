@@ -1,0 +1,40 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package br.unioeste.processamento_de_imagens.source;
+
+import java.awt.image.BufferedImage;
+import java.util.Observable;
+
+/**
+ *
+ * @author Henrique
+ */
+public class GenericImage extends Observable{
+
+    private BufferedImage image;
+    private static GenericImage gi = null;
+
+    public static GenericImage getInstance(){
+        if(gi == null) {
+            gi = new GenericImage();
+        }
+        return gi;
+    }
+
+    private GenericImage(){
+    }
+
+    public BufferedImage getBufferedImage() {
+        return image;
+    }
+
+    public void setBufferedImage(BufferedImage image) {
+        this.image = image;
+        notifyObservers();
+    }
+
+
+}
